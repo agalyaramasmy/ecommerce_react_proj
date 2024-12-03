@@ -1,0 +1,52 @@
+{
+  "datas": [
+    {
+      "id": "3d9d",
+      "name": "kavya",
+      "email": "kavya@gmail.com",
+      "password": "khome"
+    },
+    {
+      "id": "a7e2",
+      "name": "panchu",
+      "email": "panchu@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "04a1",
+      "name": "janvi",
+      "email": "janvi@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "0360",
+      "name": "meena",
+      "email": "meena@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "29db",
+      "name": "harini",
+      "email": "harini@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "5027",
+      "name": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "1e3b",
+      "name": "mercy",
+      "email": "mercy@gmail.com",
+      "password": "012345"
+    },
+    {
+      "id": "bd4f",
+      "name": "aadhi",
+      "email": "aadhi@gmail.com",
+      "password": "12345"
+    }
+  ]
+}
