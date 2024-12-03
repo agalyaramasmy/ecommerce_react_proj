@@ -1,16 +1,14 @@
 import React, { useState } from 'react';
 import './navbar.css';
 import { Link } from 'react-router-dom';
-import { FaShoppingCart, FaUser, FaBars } from 'react-icons/fa';
+import { FaUser, FaBars } from 'react-icons/fa';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 
 const NavbarComponent = ({ isAuthenticated ,search, setSearch }) => {
     const [menu, SetMenu] = useState("");
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-
     const username = localStorage.getItem('username');
-
     return (
         <>
             {isAuthenticated ? (

@@ -9,8 +9,6 @@ export const LatestItems=({ handleAddToCart })=>{
   const [search, setSearch] = useState(''); 
  
   useEffect(() => {
-    // const offerProducts = productData.filter(item => item.category === 'latest');
-    // console.log(offerProducts)
     setProductList(productData);
   }, []);
   const filteredProducts = productList.filter((item) =>
@@ -20,19 +18,16 @@ export const LatestItems=({ handleAddToCart })=>{
   return(
     <div>
       <div className="head">
-      
       <NavbarComponent isAuthenticated={true} search={search} setSearch={setSearch} /> 
-      
       </div>
     <div className="product">
-      { filteredProducts .map((item,index) => (
+      {filteredProducts .map((item,index) => (
         <div className='cards' key={index}>
           <img src={item.image} alt={item.name} />
           <p className='Pname'>{item.name}</p>
           <span className='rating'>{item.ratings}<FaStar /><p> Ratings</p></span>
           <div className='Pr_price'>
             <p><span><FaRupeeSign/></span>{item.offerprice}</p>
-           
             <s><span><FaRupeeSign/></span>{item.orginalPrize}</s>
           </div>
           <div className="cart">
